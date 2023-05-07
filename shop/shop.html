@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./shop.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div>
+            MeShop
+        </div>
+        <div>
+            <span><a href="./shop.html">Home</a></span>
+            <span><a href="../login.html">Login</a></span>
+            <span><a href="../signup.html">Signup</a></span>
+            <span><a href="../cart/cart.html">My Cart</a></span>
+            <span><a href="../profile/myprofile.html">My Profile</a></span>
+        </div>
+    </div>
+
+    <div class="sidenav">
+        <section>
+            <h3>Colors</h3>
+            <ul>
+                <li>
+                    <input id="red" type="checkbox" name="color" />
+                    <label for="red">Red</label>
+                </li>
+                <li>
+                    <input id="blue" type="checkbox" name="color" />
+                    <label for="blue">Blue</label>
+                </li>
+                <li>
+                    <input id="green" type="checkbox" name="color" />
+                    <label for="green">Green</label>
+                </li>
+                <li>
+                    <input id="black" type="checkbox" name="color" />
+                    <label for="black">Black</label>
+                </li>
+                <li>
+                    <input id="white" type="checkbox" name="color" />
+                    <label for="white">White</label>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h3>Sizes</h3>
+            <ul>
+                <li>
+                    <input id="s" type="checkbox" name="color" />
+                    <label for="s">S</label>
+                </li>
+                <li>
+                    <input id="m" type="checkbox" name="color" />
+                    <label for="m">M</label>
+                </li>
+                <li>
+                    <input id="l" type="checkbox" name="color" />
+                    <label for="l">L</label>
+                </li>
+                <li>
+                    <input id="xl" type="checkbox" name="color" />
+                    <label for="xl">XL</label>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h3>Rating</h3>
+            <input type="range" id="range" min="0" max="5" value="0" list="values" />
+            <datalist id="values">
+                <option value="0" label="0"></option>
+                <option value="1" label="1"></option>
+                <option value="2" label="2"></option>
+                <option value="3" label="3"></option>
+                <option value="4" label="4"></option>
+                <option value="5" label="5"></option>
+            </datalist>
+        </section>
+        <section>
+            <h3>Price Range</h3>
+            <ul>
+                <li>
+                    <input id="firstp" type="radio" name="prange" />
+                    <label for="firstp">$0 to $25</label>
+                </li>
+                <li>
+                    <input id="secondp" type="radio" name="prange" />
+                    <label for="secondp">$25 to $50</label>
+                </li>
+                <li>
+                    <input id="thirdp" type="radio" name="prange" />
+                    <label for="thirdp">$50 to $100</label>
+                </li>
+
+                    <input id="fourthp" type="radio" name="prange" />
+                    <label for="fourthp">$100 onwards</label>
+                </li>
+            </ul>
+        </section>
+        <button id="fltr-btn" onclick="applyfilters()">Apply Filter</button>
+    </div>
+
+    <div class="main-content">
+
+        <input type="text" placeholder="Search" id="search-bar" />
+        <div class="filters">
+            <div class="filter active">All</div>
+            <div class="filter">Men's</div>
+            <div class="filter">Women's</div>
+            <div class="filter">Jewelery</div>
+            <div class="filter">Electronics</div>
+        </div>
+
+        <div class="product-container">
+            
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="./shop.js"></script>
+</body>
+
+</html>

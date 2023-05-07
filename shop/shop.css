@@ -1,0 +1,173 @@
+.sidenav {
+    /* border: 1px solid white; */
+    background-color: black;
+    color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+    z-index: 2;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    width: 180px;
+    overflow: auto;
+    /* padding: 10px; */
+}
+
+.sidenav>section {
+    border-bottom: 1px solid white;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+input[type="checkbox"] {
+    background-color: black;
+    accent-color: black;
+}
+
+.sidenav h3 {
+    margin: 10px 5px;
+}
+
+.main-content {
+    /* border: 1px solid red; */
+    margin-left: 180px;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 5px;
+}
+
+input[type="range"] {
+    width: 100%;
+    height: 2px;
+    margin: 1rem auto;
+}
+
+datalist {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+}
+
+button {
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-content input {
+    border: 1px solid black;
+    padding: 1rem;
+    width: 98%;
+    margin: 5px auto;
+    font-size: 1rem;
+}
+
+.main-content .filters {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.main-content .filter {
+    flex: 1;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.main-content .active {
+    background-color: black;
+    color: white;
+}
+
+.product-container {
+    margin-top: 40px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center
+    ;
+    flex-wrap: wrap;
+     gap: 20px;
+   
+}
+
+
+
+.main-content  .item {
+    border: 1px solid black;
+    width: 230px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.main-content  .item img {
+    width: 100%;
+    height: 250px;
+}
+
+.main-content .item .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content .item .info {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.main-content .item .card-title{
+    font-size: 1.2rem;
+}
+
+.main-content .item button {
+    width: 100%;
+    border-radius: none;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.main-content .item .colors {
+    display: flex;
+ 
+}
+
+.main-content  .item .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 0 5px;
+}
+#addBtn{
+    width: 100%;
+    margin: 0;
+}

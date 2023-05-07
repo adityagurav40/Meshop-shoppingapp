@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+
+
+    <div class="navbar">
+        <div>
+            MeShop
+        </div>
+        <div>
+            <span><a href="../shop/shop.html">Home</a></span>
+            <span><a href="../login.html">Login</a></span>
+            <span><a href="../signup.html">Signup</a></span>
+            <span><a href="../cart/cart.html">My Cart</a></span>
+            <span><a href="./myprofile.html">My Profile</a></span>
+        </div>
+    </div>
+
+   
+
+    <div class="form-cont">
+        <h1 class="pro-hdr">My Profile</h1>
+
+        <form action="" id="profile1">
+            <input type="text" placeholder="First Name" id="fname-inp">
+            <input type="text" placeholder="Last Name" id="lname-inp">
+            <span id="err-msg1"></span>
+            <button type="button" id="save-info">Save Info</button>
+        </form>
+
+        <br>
+        <h1>Edit Password</h1>
+        <form action="" id="profile2">
+            <input type="password" name="" id="old-pass-inp" placeholder="Old Password">
+            <input type="password" name="" id="new-pass-inp" placeholder="New Password">
+            <input type="password" name="" id="cnf-new-pass-inp" placeholder="Confirm Password">
+            <span id="err-msg2"></span>
+            <button type="button" id="change-pass">Change Password</button>
+            <button type="button" id="logout-btn">Logout</button>
+        </form>
+
+    </div>
+
+
+
+
+    <script src="myprofile.js"></script>
+</body>
+
+</html>
